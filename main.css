@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body{
+    background-color: lightblue;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imagem {
+    mix-blend-mode: multiply;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 26px;
+    margin-left: 20px;
+}
+
+header h1{
+    font-size: 36px;
+    text-decoration: solid black;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#form-agenda{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 54px;
+    
+}
+
+form input{
+    font-size: 20px;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+form button{
+    background-color: rgb(49, 108, 185);
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    margin-top: 18px;
+    height: 45px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+}
+
+
+table tr{
+    font-size: 22px;
+}
+table th,
+table td {
+    text-align: center;
+    padding: 12px; 
+}
+
+
+table th {
+    border-bottom: 2px solid black;
+}
+
+table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
